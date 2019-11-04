@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtuesimerkki.StatisticsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-04T11:16:58" hostname="jarsba-ThinkPad-T430s" time="0.083">
+  <properties/>
+  <testcase name="searchWithUnknownPlayer" classname="ohtuesimerkki.StatisticsTest" time="0.007"/>
+  <testcase name="getTeam" classname="ohtuesimerkki.StatisticsTest" time="0.068"/>
+  <testcase name="searchRealPlayer" classname="ohtuesimerkki.StatisticsTest" time="0.002"/>
+  <testcase name="getTopScorers" classname="ohtuesimerkki.StatisticsTest" time="0.004"/>
+  <system-out><![CDATA[Semenko              EDM  4 + 12 = 16
+Kurri                EDM 37 + 53 = 90
+Gretzky              EDM 35 + 89 = 124
+Kurri                EDM 37 + 53 = 90
+Gretzky              EDM 35 + 89 = 124
+Lemieux              PIT 45 + 54 = 99
+Yzerman              DET 42 + 56 = 98
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
