@@ -62,7 +62,6 @@ public class Player implements Comparable<Player> {
 
     @Override
     public boolean equals(Object obj) {
-        System.out.println(obj);
         if (obj != null && obj instanceof Player)
             return(
                 this.name.equals(((Player) obj).name) &&
