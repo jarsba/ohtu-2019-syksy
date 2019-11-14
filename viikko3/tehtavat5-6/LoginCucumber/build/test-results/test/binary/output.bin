@@ -1,0 +1,54 @@
+BFeature: User can log in with valid username/password-combination
+
+n  Scenario: user can login with correct password           [90m# src/test/resources/ohtu/login.feature:3[0m
+x    [32mGiven [0m[32mcommand login is selected[0m                        [90m# Stepdefs.commandLoginSelected()[0m
+∫    [32mWhen [0m[32musername [0m[32m[1m"pekka"[0m[32m and password [0m[32m[1m"akkep"[0m[32m are entered[0m [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+å    [32mThen [0m[32msystem will respond with [0m[32m[1m"logged in"[0m              [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+s  Scenario: user can not login with incorrect password          [90m# src/test/resources/ohtu/login.feature:8[0m
+}    [32mGiven [0m[32mcommand login is selected[0m                             [90m# Stepdefs.commandLoginSelected()[0m
+ø    [32mWhen [0m[32musername [0m[32m[1m"pekka"[0m[32m and password [0m[32m[1m"huon0passu"[0m[32m are entered[0m [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+ë    [32mThen [0m[32msystem will respond with [0m[32m[1m"wrong username or password"[0m  [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+t  Scenario: nonexistent user can not login to                   [90m# src/test/resources/ohtu/login.feature:13[0m
+}    [32mGiven [0m[32mcommand login is selected[0m                             [90m# Stepdefs.commandLoginSelected()[0m
+ø    [32mWhen [0m[32musername [0m[32m[1m"pekka"[0m[32m and password [0m[32m[1m"huon0passu"[0m[32m are entered[0m [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+ë    [32mThen [0m[32msystem will respond with [0m[32m[1m"wrong username or password"[0m  [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+^Feature: A new user account can be created if a proper unused username and password are given
+
+~  Scenario: creation is successful with valid username and password     [90m# src/test/resources/ohtu/new_user.feature:3[0m
+É    [32mGiven [0m[32mcommand new is selected[0m                                       [90m# Stepdefs.commandNewSelected()[0m
+«    [32mWhen [0m[32musername [0m[32m[1m"toinenpekka"[0m[32m and password [0m[32m[1m"1akkePneniot"[0m[32m are entered[0m [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+ô    [32mThen [0m[32msystem will respond with [0m[32m[1m"new user registered"[0m                 [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+Ä  Scenario: creation fails with already taken username and valid password [90m# src/test/resources/ohtu/new_user.feature:8[0m
+Ö    [32mGiven [0m[32mcommand new is selected[0m                                         [90m# Stepdefs.commandNewSelected()[0m
+…    [32mWhen [0m[32musername [0m[32m[1m"pekka"[0m[32m and password [0m[32m[1m"akkep"[0m[32m are entered[0m                [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+õ    [32mThen [0m[32msystem will respond with [0m[32m[1m"new user not registered"[0m               [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+}  Scenario: creation fails with too short username and valid password [90m# src/test/resources/ohtu/new_user.feature:13[0m
+Å    [32mGiven [0m[32mcommand new is selected[0m                                     [90m# Stepdefs.commandNewSelected()[0m
+≈    [32mWhen [0m[32musername [0m[32m[1m"pe"[0m[32m and password [0m[32m[1m"2akkePneniot"[0m[32m are entered[0m        [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+ó    [32mThen [0m[32msystem will respond with [0m[32m[1m"new user not registered"[0m           [90m# Stepdefs.systemWillRespondWith(String)[0m
+	
+	}  Scenario: creation fails with valid username and too short password [90m# src/test/resources/ohtu/new_user.feature:18[0m
+	Å    [32mGiven [0m[32mcommand new is selected[0m                                     [90m# Stepdefs.commandNewSelected()[0m
+	≈    [32mWhen [0m[32musername [0m[32m[1m"kolmaspekka"[0m[32m and password [0m[32m[1m"lyhytpe"[0m[32m are entered[0m    [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+	ó    [32mThen [0m[32msystem will respond with [0m[32m[1m"new user not registered"[0m           [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+
+
+û  Scenario: creation fails with valid username and password long enough but consisting of only letters [90m# src/test/resources/ohtu/new_user.feature:23[0m
+
+¢    [32mGiven [0m[32mcommand new is selected[0m                                                                      [90m# Stepdefs.commandNewSelected()[0m
+
+Ê    [32mWhen [0m[32musername [0m[32m[1m"toinenpekka"[0m[32m and password [0m[32m[1m"akkePneniot"[0m[32m are entered[0m                                 [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+
+∏    [32mThen [0m[32msystem will respond with [0m[32m[1m"new user not registered"[0m                                            [90m# Stepdefs.systemWillRespondWith(String)[0m
+
+u  Scenario: can login with successfully generated account     [90m# src/test/resources/ohtu/new_user.feature:28[0m
+∞    [32mGiven [0m[32muser [0m[32m[1m"eero"[0m[32m with password [0m[32m[1m"salainen1"[0m[32m is created[0m    [90m# Stepdefs.newUserIsCreated(String,String)[0m
+{    [32mAnd [0m[32mcommand login is selected[0m                             [90m# Stepdefs.commandLoginSelected()[0m
+Ω    [32mWhen [0m[32musername [0m[32m[1m"eero"[0m[32m and password [0m[32m[1m"salainen1"[0m[32m are entered[0m [90m# Stepdefs.usernameAndPasswordAreEntered(String,String)[0m
+è    [32mThen [0m[32msystem will respond with [0m[32m[1m"logged in"[0m                 [90m# Stepdefs.systemWillRespondWith(String)[0m
