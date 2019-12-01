@@ -1,0 +1,122 @@
+[33mcommit 1c9a3f0bcce716bb5c5c7588199a14b4271b5dbb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: tagi2[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Dec 1 14:43:30 2019 +0200
+
+    muutos3
+
+[33mcommit d27d3dc86af4fa901cc7341b181b3508fd6930f6[m[33m ([m[1;33mtag: tagi1b[m[33m)[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Dec 1 14:43:02 2019 +0200
+
+    muutos1
+
+[33mcommit 2b7564462dfdacc4ae783d128f97a7eb8684141c[m[33m ([m[1;33mtag: tagi1a[m[33m)[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Dec 1 14:42:41 2019 +0200
+
+    muutos1
+
+[33mcommit 16b26094da29ec813efdbfb30a18f17cbd8041bb[m[33m ([m[1;33mtag: tag1[m[33m)[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 25 23:25:46 2019 +0200
+
+    done exc for week4
+
+[33mcommit c2c0f61af033a9a538cd54391197aea68de3b658[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Fri Nov 15 00:45:40 2019 +0200
+
+    finished all excerices with selenium and cucumber
+
+[33mcommit c3a682ac8ca6673afb707480eded467a8b3855b2[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Thu Nov 14 20:39:02 2019 +0200
+
+    added tehtavat1-3
+
+[33mcommit 329be9cf0c65868f42840506515da20c20c1895b[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 11 11:37:42 2019 +0200
+
+    done 9-12
+
+[33mcommit 06cb63b866decfcf9f38296cb795ab5037ec71d9[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 11 10:56:16 2019 +0200
+
+    really removed files from remote also
+
+[33mcommit 9f461b36d647c2e1de7ab85179ff44bb3c796575[m
+Merge: 33cd26f 41fc043
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 11 10:49:58 2019 +0200
+
+    Merge branch 'master' of github.com:jarsba/ohtu-2019-syksy
+
+[33mcommit 33cd26f8d4866b8664643762edf799b51c1bf141[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 11 10:49:48 2019 +0200
+
+    push check
+
+[33mcommit 41fc04345f2ce571245f377467b9ffb151907900[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 23:15:00 2019 +0200
+
+    added another file
+
+[33mcommit 642d0e230e9445de2528804c7624be0ae37aaf11[m
+Merge: 3c80415 794e482
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 23:14:18 2019 +0200
+
+    Merge branch 'master' of https://github.com/jarsba/ohtu-2019-syksy
+
+[33mcommit 794e482adba114ccee9766eb5ea67b5849494d21[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 23:13:56 2019 +0200
+
+    added file
+
+[33mcommit 3c80415c30f9ae0ef9114ad728854cc5c932571b[m
+Merge: 68ed2cd b73c8cc
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 23:03:32 2019 +0200
+
+    Merge branch 'haara2' of https://github.com/jarsba/ohtu-2019-syksy
+
+[33mcommit b73c8ccdf53cdc2a4b7a725afa81d8033c535d6d[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 23:00:07 2019 +0200
+
+    haara2
+
+[33mcommit 68ed2cd95f15b56fa285815442bc84a381eca6dd[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 22:59:39 2019 +0200
+
+    haara1
+
+[33mcommit 50b14db0b9af21e9548bb002f6cd039a1038180b[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Sun Nov 10 22:58:20 2019 +0200
+
+    push
+
+[33mcommit 7afdff98e96849b7d2827130edda52255dad9bc1[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 4 13:24:05 2019 +0200
+
+    removed sout
+
+[33mcommit b938f16ad96a1312c9181d4d48e573d040a14535[m
+Author: jarsba <jarkko.lehtiranta@selko.io>
+Date:   Mon Nov 4 13:21:34 2019 +0200
+
+    added tests for nhl statistics
+
+[33mcommit 3c172525826723b3202b64cf95c49133c7fd57b2[m
+Author: jarsba <jarkko.lehtiranta@helsinki.fi>
+Date:   Mon Nov 4 10:54:57 2019 +0200
+
+    Initial commit
